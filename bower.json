@@ -1,0 +1,12 @@
+{
+  "name": "estudando",
+  "description": "aprendendo bower, com rodrigo branas",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "~1.2.16"
+  },
+  "devDependencies": {}
+}

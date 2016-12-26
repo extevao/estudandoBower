@@ -1,0 +1,238 @@
+body {
+  padding-bottom: 40px;
+  color: #f7f7f8;
+  font-size: 12pt;
+}
+main {
+  padding-top: 100px;
+}
+footer {
+  padding-right: 15px;
+  padding-left: 15px;
+
+  
+}
+.lista-ordenada li{
+  padding-top: 8px;
+  text-align: justify;
+}
+.soldado{
+  color: #f4d07d; 
+  font-family: Purista, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+.battlelog {
+  display: block;
+  width: 95px;
+  height: 48px;
+  background: url('../img/battlelog-logo.png') 0 50% no-repeat;
+  background-size: contain;
+}
+.steam {
+  display: block;
+  width: 95px;
+  height: 48px;
+  background: url('../img/globalheader_logo.png') 0 50% no-repeat;
+  background-size: contain;
+}
+.row {
+  background-color: rgba(0,0,0,0.45);
+  
+  border-radius: 5px;
+  padding: 50px;
+  margin: 5px;
+}
+.regras {
+   font-family: Purista, sans-serif;
+   font-size: 14pt;
+}
+.navbar-fixed-top {
+
+  background-color: rgba(0,0,0,.4) !important;
+  border-radius: 5px; 
+}
+
+.paragrafo {
+  text-indent: 50px;
+}
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.carousel {
+  height: 1000px;
+  margin-bottom: 60px;
+}
+.carousel-caption, h1, p {
+  z-index: 10;
+}
+.carousel .item {
+  height: 1000px;
+  background-color: #777;
+  opacity: 0.8;
+  color: #f7f7f8;
+
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 1000px;
+
+}
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.featurette-divider {
+  margin: 80px 0; 
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+#base-background .video-container video {
+  outline: none;
+}
+#background-video{
+  position:fixed;
+  left:0px;
+  top:0px;
+  z-index:-1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+video {
+object-fit: contain;
+}
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,0.7);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+.inner {
+  padding: 30px;
+}
+.fundo-transparente {
+  background-color : transparent !important;
+  color: #f7f7f8; 
+}
+
+.fundo-transparente-mensagem {
+  background-color : transparent !important;
+  color: #f7f7f8; 
+  border-color: rgba(220,220,220, 0.1);
+  box-shadow: 0px 0px 10px rgba(139, 0, 0, 0.7); 
+  margin-top: 11px;
+}
+
+.lista {
+  font-size: 16pt;
+}
+.link {
+  color:  #f7f7f8;
+}
